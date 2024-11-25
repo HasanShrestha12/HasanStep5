@@ -1,0 +1,126 @@
+
+header {
+    font-family: 'Yatra One', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    background-image: url("https://media.istockphoto.com/id/1194868251/photo/patan.jpg?s=612x612&w=0&k=20&c=C0b9mNx2z5jTnE5LMa2NAPKrDKQ8gEzrf2HQM4hCf3g=");
+     background-size:cover;
+     background-position: center;  
+    padding: 150px 20px; 
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("https://media.istockphoto.com/id/1194868251/photo/patan.jpg?s=612x612&w=0&k=20&c=C0b9mNx2z5jTnE5LMa2NAPKrDKQ8gEzrf2HQM4hCf3g=");
+    background-attachment: fixed;
+    text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.8);
+    letter-spacing: 2px;
+}
+
+#kathmandu{
+text-align: center;
+}
+
+#kathmanduu{
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    flex-wrap: wrap;         
+    gap: 20px;               
+    padding: 20px;
+    height: 200px;
+}
+#kathmandu-img1{
+    width: 250px;
+    border-radius: 50%;
+    border: 6px solid #f4e1d2;
+    margin-bottom: 10px; 
+    height: 175px;
+}
+#kathmandu-img1:hover {
+    transform: scale(2);               
+    cursor: pointer; 
+    }
+
+#kathmandu-img2{
+    width: 250px;
+    border-radius: 50%;
+    border: 6px solid #f4e1d2;
+    margin-bottom: 10px;
+    height: 175px;
+}
+#kathmandu-img2:hover {
+    transform: scale(2);               
+    cursor: pointer; 
+    }
+
+#kathmandu-img3{
+    width: 250px;
+    border-radius: 50%;
+    border: 6px solid #f4e1d2;
+    margin-bottom: 10px;
+    height: 175px;
+    
+}
+#kathmandu-img3:hover {
+    transform: scale(2);               
+    cursor: pointer; 
+    }
+#kathmandu-img4{
+    width: 250px;
+    border-radius: 50%;
+    border: 6px solid #f4e1d2;
+    margin-bottom: 10px;
+    height: 175px;
+}
+#kathmandu-img4:hover {
+    transform: scale(2);               
+    cursor: pointer; 
+    }
+
+body {
+     margin: 0;
+    padding: 10px;
+    background: linear-gradient(#FFB6B9, #FFC3A0, #FF677D);
+}
+#about {
+    padding: 20px;
+    text-align: center;
+}
+#about h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+#details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#details li {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#details p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+   #details button {
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#details button:hover {
+    background-color: #3cb371;
+}
